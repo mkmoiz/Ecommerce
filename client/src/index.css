@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+/* navbar */
+.navbar{
+  font-family:"Overlock",sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  font-style: normal;
+  box-shadow: 0 8px 6px -6px mediumaquamarine;
+  border-bottom: 0.6px solid mediumaquamarine !important; 
+  text-transform: uppercase;
+}
+
+.nav-link{
+  font-weight: 10  !important;
+}
+
+.active{
+  border-bottom:1px solid mediumaquamarine;
+}
+
+.navbar-brand{
+  font-family: "Overlock","sans-serif";
+  font-weight: 700;
+  letter-spacing: 2px;
+  
+}
+
+
+
+
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+}
+
+.footer a:hover{
+  color:mediumaquamarine;
+}
+
+
+/* Not found */
+.pnf{
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-head{
+  font-weight: bold;
+  font-size: 150px;
+  color:mediumaquamarine;
+}
+
+.pnf-para{
+  font-size: 40px;
+  color: mediumaquamarine;
+  padding-bottom: 20px;
+}
+
+.pnf-btn{
+  font-size: 25px;
+  color:mediumaquamarine;
+  border: 2px solid mediumaquamarine;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+
+/* connect */
+.contactus{
+  padding-top: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.para{
+  color:darkcyan;
+  font-weight:400;
+}
+
+
+/* signUp */
+.register{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+
+/* to remove navlinks from content.js file */
+.remove-link{
+  text-decoration: none !important;
+  color:black !important;
+}
+/* to resize img */
+.card-img-top{
+  width: 286px;
+  height: 198px;
+  /* margin-left: 50px; */
+  object-fit:cover;
+}
+
+
+/* in add to cart */
+.add-to-cart{
+  padding-left: 20px;
+}
+
+
+
+
+
+/* font-family: "Overlock", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
